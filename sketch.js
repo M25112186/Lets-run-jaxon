@@ -41,7 +41,7 @@ function draw() {
   background(0);
   path.velocityY = 4;
   
-  path.x = World.mouseX;
+  boy.x = World.mouseX;
   
   edges= createEdgeSprites();
   boy.collide(edges[3]);
